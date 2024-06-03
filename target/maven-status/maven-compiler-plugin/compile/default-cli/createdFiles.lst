@@ -1,0 +1,5 @@
+com\cadastromanga\erp\controller\Manga.class
+com\cadastromanga\erp\controller\MangaBean.class
+controlador\controlador.class
+com\mycompany\cadastromanga\resources\JakartaEE10Resource.class
+com\mycompany\cadastromanga\JakartaRestConfiguration.class

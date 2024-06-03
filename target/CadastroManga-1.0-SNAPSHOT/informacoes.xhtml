@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="jakarta.faces.html"
+      xmlns:f="jakarta.faces.core">
+   
+    <h:head>
+        <title>Dados do Mangá</title>
+    </h:head>
+    <h:body>
+        <h1>Dados do Mangá</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nome do Mangá</th>
+                <th>Capítulo</th>
+                <th>Criador</th>
+                <th>Ano de Lançamento</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>#{controlador.nome}</td>
+                <td>#{controlador.capitulo}</td>
+                <td>#{controlador.mangaka}</td>
+                <td>#{controlador.criacao}</td>
+            </tr>
+        </tbody>
+    </table>
+    </h:body>
+    
+</html>
